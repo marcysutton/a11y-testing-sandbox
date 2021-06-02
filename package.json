@@ -1,0 +1,15 @@
+{
+  "name": "a11y-testing-sandbox",
+  "version": "1.0.0",
+  "description": "A repo for accessibility testing and reporting bugs to frameworks",
+  "main": "index.html",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Marcy Sutton",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  }
+}

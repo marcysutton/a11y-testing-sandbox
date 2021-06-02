@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A11y Testing Sandbox</title>
+        <script>
+            function handleClick() {
+                window.alert('click event');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>A11y Testing Sandbox</h1>
+
+        <section>
+            <h2>Test cases</h2>
+            <h4 role="button" tabIndex="0" data-cy="test-h4" onclick="handleClick()">Sign In</h4>
+            <button data-cy="test-button" onclick="handleClick()">Sign In</button>
+        </section>
+    </body>
+</html>
